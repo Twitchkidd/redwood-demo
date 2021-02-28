@@ -1,3 +1,7 @@
+/*
+ * How do I make it look at the name of the role not the role id?
+ */
+
 bot.on('messageReactionAdd', async (reaction, user) => {
   if (reaction.message.partial) await reaction.message.fetch();
   if (reaction.partial) await reaction.fetch();
